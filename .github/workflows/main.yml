@@ -1,8 +1,6 @@
 name: Continuous Translation
 
-on:
-  push:
-    branches: ["main"]
+on: repository_dispatch
 jobs:
   build:
     runs-on: ubuntu-latest
