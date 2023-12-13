@@ -2,7 +2,8 @@ name: Continuous Translation
 
 on:
   push:
-    branches: ["translate"]
+    branches: 
+      - translate
 jobs:
   build:
     runs-on: ubuntu-latest
